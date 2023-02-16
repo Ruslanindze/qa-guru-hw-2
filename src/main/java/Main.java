@@ -3,8 +3,8 @@ public class Main {
 
         System.out.println("Testing sum");
         System.out.println("Case_001: 5 + 3 == 8 => " + (sum(5, 3) == 8));
-        System.out.println("Case_002: 5 + 4 == 9 => " + (sum(5, 4) == 9));
-        System.out.println("Case_003: 5 + 5 == 10 => " + (sum(5, 5) == 10));
+        System.out.println("Case_002: 5 + 4 == 9 => " + (sum(15, 4) == 19));
+        System.out.println("Case_003: 15 + -5 == 10 => " + (sum(15, -5) == 10));
     }
 
     static int sum(int x, int y) {
