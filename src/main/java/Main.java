@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String... args) {
 
         System.out.println("Testing sum");
         System.out.println("Case_001: 5 + 3 == 8 => " + (sum(5, 3) == 8));
