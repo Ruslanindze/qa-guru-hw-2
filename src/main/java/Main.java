@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Testing sum");
-        System.out.println("Case_001: 5 + 3 == 8 => " + (sum(5, 3) == 8));
+        System.out.println("Case_001: 25 + -13 == 12 => " + (sum(5, 3) == 12));
         System.out.println("Case_002: 5 + 4 == 9 => " + (sum(15, 4) == 19));
         System.out.println("Case_003: 15 + -5 == 10 => " + (sum(15, -5) == 10));
     }
